@@ -163,6 +163,7 @@ ul li a {
 
 button a {
   background-color: white;
+  outline: auto;
   font-size: 20px;
   padding: 5px;
   font-family: 'Montserrat', sans-serif;
