@@ -1,0 +1,60 @@
+/*FORMULARIO*/
+
+$color1:#158FBF;
+$color4: #262626; 
+.contenedor3{ height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    position: relative;
+    background-image: url(../imagenProyecto/fashion-601553.jpg);
+    background-position:unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+    
+    
+    .formulario{ text-align: center;
+    position: sticky;
+    height: auto;
+    margin-top: 100px;
+    left: 300px;
+    font-family:'Bebas Neue', cursive ;
+    font-size: 25px;
+    color:$color4 ;
+    }
+    .form{ width: 400px;
+    background-color:$color1;
+    margin: 0 auto;
+    padding:  20px;
+    border-radius: 7px;
+    }
+
+  @media screen and (max-width:470px){
+      .formulario{font-size: 19px;}
+      .form{ width: 250px;}
+      .contenedor3{ background-image: url(../imagenProyecto/fashion-601553.jpg);
+    background-size:cover;}
+      
+  }
+    
+    input, textarea{ 
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;}
+    
+    textarea{ min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;}
+    
+    #boton{ background: white;
+    padding: 10px;
+    color:$color4;}
+    
+    #boton:hover{
+        cursor: pointer;
+    }

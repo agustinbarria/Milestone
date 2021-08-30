@@ -1,0 +1,69 @@
+/*FOOTER*/
+$color1: #158FBF;    
+$color4:#262626;
+$color2: #BFBFBF;
+$color5: #0477BF;
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    background-color: $color4;
+    font-size: 30px;
+    font-family:'Bebas Neue', cursive ;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.redes2{color: $color2;
+    position: sticky;
+padding: 5px;
+margin-left: 20px;
+box-sizing: border-box;}
+.redes3{position: sticky;
+font-size: 45px;
+padding: 5px;
+box-sizing: border-box;
+}
+
+#instagram{color: $color5}
+#instagram:hover{color: palevioletred;
+margin-right: 10px;
+transform: scale(1.2);}
+
+#facebook{color: $color5}
+#facebook:hover{color:blue;
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+#twitter{color:$color5}
+#twitter:hover{color:$color1;
+    margin-right: 10px;
+    transform: scale(1.2);}
+
+    #youtube{color: $color5;}
+#youtube:hover{color:red;
+    margin-right: 10px;
+    transform: scale(1.2);}
+
+.derechos{
+    box-sizing: border-box;
+    height: auto;
+    background-color: $color4;
+    font-size: 25px;
+    font-family:'Bebas Neue', cursive ;
+    text-align:center;
+color: $color2;
+padding-bottom: 10px;}
+
+
+@media screen and (max-width: 470px){
+.derechos{ font-size: 20px;
+padding-bottom: 20px;}
+
+}

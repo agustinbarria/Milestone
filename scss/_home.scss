@@ -1,0 +1,69 @@
+/*HOME*/
+
+$color1: #158FBF;
+$color2: #BFBFBF;
+$color3: black;
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+height: 700px;
+width: 100%;
+position: relative;
+background-image: url(../imagenProyecto/male-3172988_.jpg);
+background-position:unset;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+}
+
+.nuevaColeccion{ font-family: 'Bebas Neue', cursive;
+font-size: 45px;
+text-align: justify;
+position: relative;
+left: 1000px;
+top:200px;
+animation-name: aparecer;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+position: sticky;
+margin-top: 200px;
+}
+
+@keyframes aparecer {
+
+    0%{color:$color3;}
+    50%{ color: $color2 ;}
+    100%{ color: $color1  ;}
+    
+}
+
+button a{ 
+background-color:white ;
+font-size: 20px;
+padding: 5px;
+font-family: 'Montserrat', sans-serif;
+animation-name: aparecer2;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+border-radius: 5px;}
+
+@keyframes aparecer2 {
+
+    0%{color:$color3;}
+    50%{ color: $color2 ;}
+    100%{ color: $color1 ;}
+    
+}
+
+button a{ text-decoration: none;}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and ( max-width: 470px){
+    .home{ background-image: url(../imagenProyecto/fashion-1853294.jpg);
+    }
+}
