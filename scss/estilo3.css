@@ -1,0 +1,29 @@
+*{margin:0px;
+padding: 0px;}
+
+body{background-color: #262626;}
+.container_404{text-align: center;
+padding: 50px;}
+
+h1,i{font-size: 200px;
+    color: #BFBFBF;
+font-family: monospace;}
+
+h2{font-size: 100px;
+color: #BFBFBF;
+font-family: monospace;}
+
+button{
+    margin-top: 50px;
+    padding: 10px;
+border-radius: 20px;
+background-color: #BFBFBF;}
+
+button:hover{background-color:#158FBF;}
+
+a{ text-decoration: none;
+font-size: 50px;
+color: #262626;
+padding: 20px;
+font-family: monospace;
+}
